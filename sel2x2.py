@@ -6,9 +6,9 @@ a2 = float(input("a2="))
 b2 = float(input("b2="))
 c2 = float(input("c2="))
 
-d = a1*b2-a2*b1
+d = a1 * b2 - a2 * b1
 if d == 0.0:
-    dp = a1*c2-a2*c1
+    dp = a1 * c2 - a2 * c1
     if dp == 0.0:
         print("Existen infinitas soluciones")
         print("Las soluciones tienen la forma:")
@@ -16,7 +16,7 @@ if d == 0.0:
     else:
         print("No existe solución")
 else:
-    x = (b2*c1-b1*c2)/(a1*b2-a2*b1)
-    y = (a1*c2-a2*c1)/(a1*b2-a2*b1)
+    x = (b2 * c1 - b1 * c2) / (a1 * b2 - a2 * b1)
+    y = (a1 * c2 - a2 * c1) / (a1 * b2 - a2 * b1)
     print("La solución es:\nx={:.2f}\ty={:.2f}".format(x, y))
-printf("Gracias por usar HAMSoftware")
+print("Gracias por usar HAMSoftware")
