@@ -19,4 +19,9 @@ else:
     x = (b2 * c1 - b1 * c2) / (a1 * b2 - a2 * b1)
     y = (a1 * c2 - a2 * c1) / (a1 * b2 - a2 * b1)
     print("La solución es:\nx={:.2f}\ty={:.2f}".format(x, y))
+<<<<<<< Updated upstream
 print("Gracias por usar HAMSoftware")
+=======
+printf("Gracias por usar HAMSoftware")
+print("Esto paso en hasefroch")
+>>>>>>> Stashed changes
