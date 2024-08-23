@@ -9,17 +9,22 @@ while True:
             print("El coeficiente cuadrático no puede ser cero")
     b = float(input("Ingrese el coeficiente lineal:"))
     c = float(input("Ingrese el coeficiente libre:"))
-    disc = b*b - 4*a*c
+    disc = b * b - 4 * a * c
     print("El discriminante es:", disc)
     if disc < 0:
         print("No existe solución real")
     elif disc == 0:
-        print("Existe única solución real, x=", (-b/(2*a)))
+        print("Existe única solución real, x=", (-b / (2 * a)))
     else:
-        print("Existen dos soluciones reales:\nx1=",
-              (-b-disc**0.5)/(2*a), " y x2=", (-b+disc**0.5)/(2*a))
+        print(
+            "Existen dos soluciones reales:\nx1=",
+            (-b - disc**0.5) / (2 * a),
+            " y x2=",
+            (-b + disc**0.5) / (2 * a),
+        )
     opcion = float(
-        input("Presione 1 para salir\tPresione 2 para resolver otra ecuación\nOpcion:"))
+        input("Presione 1 para salir\tPresione 2 para resolver otra ecuación\nOpcion:")
+    )
     if opcion == 1:
         break
 print("Gracias por usar el programa")
