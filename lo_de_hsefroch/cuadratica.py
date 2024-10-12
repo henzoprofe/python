@@ -1,4 +1,3 @@
-from os import system
 print("Programa para resolver cuadraticas")
 opcion = 2
 while True:
@@ -25,6 +24,5 @@ while True:
     opcion = float(input("Presione 1 para salir\tPresione 2 para resolver otra ecuación\nOpcion:"))
     if opcion == 1:
         break
-    else:
-    	system("clear")
+
 print("Gracias por usar HAMsoftware")

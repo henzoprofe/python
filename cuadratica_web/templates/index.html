@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolver Ecuación Cuadrática</title>
+</head>
+<body>
+    <h1>Programa para resolver ecuaciones cuadráticas</h1>
+    <form action="{{ url_for('solve') }}" method="POST">
+        <label for="a">Coeficiente cuadrático (a):</label><br>
+        <textarea name="a" rows="1" cols="20"></textarea><br><br>
+
+        <label for="b">Coeficiente lineal (b):</label><br>
+        <textarea name="b" rows="1" cols="20"></textarea><br><br>
+
+        <label for="c">Coeficiente libre (c):</label><br>
+        <textarea name="c" rows="1" cols="20"></textarea><br><br>
+
+        <input type="submit" value="Resolver">
+    </form>
+</body>
+</html>
